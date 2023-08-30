@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<h1>
+    Voice2Task
+</h1>
+<button id="startRecording">Start Recording</button>
+<button id="stopRecording" disabled>Stop Recording</button>
+<div id="output"></div>
+
+<input type="file" id="fileInput">
+<button id="uploadButton">Upload and Convert</button>
+
+
+<div id="currentTasks">
+    <h2>Current Tasks</h2>
+    <!-- Current tasks will be added here -->
+</div>
+
+<div id="completedTasks">
+    <h2>Completed Tasks</h2>
+    <!-- Completed tasks will be added here -->
+</div>
+
+{% endblock %}
+
+
+{% block body %}
+
+{% endblock %}

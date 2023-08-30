@@ -1,0 +1,18 @@
+/* body {
+    margin: 0;
+    font-family: helvetica;
+} */
+
+.task-label {
+    display: block;
+    margin-bottom: 10px;
+    /* Adjust this value as needed */
+}
+
+.completed-task-label {
+    display: block;
+    margin-bottom: 10px;
+    /* Adjust this value as needed */
+    text-decoration: line-through;
+    /* Apply a strikethrough style to completed tasks */
+}
